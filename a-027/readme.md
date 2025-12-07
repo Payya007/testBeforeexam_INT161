@@ -20,3 +20,18 @@ npm audit fix --force
 ถ้ามีใน database แล้วปั๊ป ก็   คือ เอา จาาก  databse เราสร้าง schma เพื่อ ใช้ใน backend ได้ 
 npx prisma db pull
 npx prisma generate
+
+และ ต้องไปเพิ่ม ถ้าอยากได้ npm run dev
+"scripts": {
+     "dev": "node server.js", // ไฟล์ที่จะรัน 
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+
+
+ถ้า error ไม่เจอ module 
+{
+  "name": "a-027",
+  "version": "1.0.0",
+  "main": "index.js",
+    "type": "module", }
+    ใส่ใน packet.json ด้วย
