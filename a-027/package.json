@@ -1,0 +1,19 @@
+{
+  "name": "a-027",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "เริ่มต้น ง่ายๆ\r 1. สร้าง \"บัตรประชาชน\" ให้โปรเจกต์ก่อน (Init)\r ก่อนจะมี node_modules ได้ ต้องมีไฟล์ package.json ก่อน เพื่อบอกว่าโปรเจกต์นี้ชื่ออะไร",
+  "dependencies": {
+    "@prisma/client": "^5.22.0",
+    "dotenv": "^17.2.3"
+  },
+  "devDependencies": {
+    "prisma": "^5.22.0"
+  }
+}
