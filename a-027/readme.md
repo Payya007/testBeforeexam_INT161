@@ -12,8 +12,11 @@ npx prisma init
 npx prisma -v
 npm audit fix --force 
 
-แล้ว ก็ไป สร้าง db ใน local workbeance หรือ  ใน webstrom  อะ สร้าง db_027
+แล้ว ก็ไป สร้าง db ใน local workbeance  สร้าง db_027
+แล้วก็ โหลด MySQL – MySQL (by Weijan Chen) extention
+ไปเชื่อมกับ database  ที่สร้าง 
 แล้ว ก็สร้าง server ระบุ root ระบุ password ระบุ  port แล้วค่อยเอาที่เรากำหนด ไปใส่ .env 
+
 
 // ติดตั้ง  ให้คุยกับ env ได้  บรรทัด 9 
 แล้วก็ เอา database ยัดลงไปใน local แล้วใช่ไหม ไม่ว่าจะเป็น  workbence local  หรือ web strom ก็ แปะ sql วางลงไปทั้ง สร้าง tables และ  insert 
